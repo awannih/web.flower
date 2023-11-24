@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Fuggles&family=Poppins:wght@100;300;400;500;700&display=swap");
+
+* {
+  font-family: "poppins", sans-serif;
+  line-height: 20px;
+  font-size: 15px;
+}
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.screen-in {
+  width: 1000px;
+  margin: auto;
+}
+.layar-penuh {
+  width: 100%;
+}
+nav {
+  z-index: 100;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  border-bottom: 1px solid #b1b1b1;
+  line-height: 60px;
+  width: 100%;
+}
+nav.putih {
+  background-color: #fff;
+}
+.nav .main {
+  margin-top: 500px;
+}
+nav .logo {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .logo img {
+  width: 70px;
+  margin-top: 0;
+}
+
+nav .menu {
+  float: right;
+  height: 50px;
+  max-width: 600px;
+  margin-top: 25px;
+}
+nav .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav .menu ul li {
+  list-style-type: none;
+  float: left;
+  line-height: 60px;
+}
+nav .menu ul li .clock {
+  display: none;
+}
+
+nav ul li a {
+  color: yellowgreen;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+  font-size: medium;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+/* siderbar */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 40px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+  line-height: 30px;
+  margin-top: 10px;
+}
+.sidenav a img {
+  width: 90px;
+}
+
+.sidenav li {
+  color: #fff;
+}
+.sidenav a:hover {
+  color: #f51717;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  color: #fff;
+  width: 70px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pengaturan Dropdown */
+.dropdown-content {
+  color: yellowgreen;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  background-color: #063831;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0c2b33;
+  min-width: 160px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: yellowgreen;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 20px;
+}
+
+/* hamburger menu */
+.hamburger {
+  position: absolute;
+  top: 1.7rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+.hamburger .garis1,
+.garis2,
+.garis3,
+.garis4 {
+  height: 3px;
+  background-color: #f20303;
+  border-radius: 5px;
+  transition: 1s;
+}
+/* transition garis */
+.change .garis1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .garis2 {
+  opacity: 0;
+}
+.change .garis3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+/* section setting */
+section {
+  padding: 80px 0px 50px 0px;
+  background-color: #0c2b33;
+}
+section h3 {
+  font-size: 30px;
+  color: #fff;
+}
+h3 {
+  font-size: 30px;
+}
+#aboutus,
+#regist,
+#sejarah,
+#tujuan,
+.promo {
+  text-align: center;
+  background-color: #0c2b33;
+}
+section p.ringkasan {
+  font-style: italic;
+  font-size: 20px;
+  color: orangered;
+}
+section .konten-isi p {
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+section .konten-isi b {
+  font-size: 22px;
+}
+.promo .konten-isi p {
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-bottom: 150px;
+  font-family: "poppins";
+  color: #fff;
+}
+section .konten-isi ul li {
+  font-style: normal;
+  font-size: 20px;
+  text-align: left;
+}
+nav.putih {
+  background-color: #fff;
+}
+nav.putih {
+  background-color: #010101;
+}
+nav.putih ul li a {
+  color: #333;
+}
+nav .logo img.hitam {
+  display: none;
+}
+section.abuabu {
+  background-color: #f5f6f6;
+}
+
+.copyright {
+  color: #b1b1b1;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/* responsive */
+@media screen and (max-width: 991.98px) {
+  .screen-in {
+    width: 90%;
+  }
+  /* navigasi menu */
+  nav .menu ul {
+    display: none;
+    margin-top: 70px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+  }
+  nav .menu ul li {
+    width: 100%;
+    background-color: #1e1d1d;
+    line-height: 50px;
+    right: 0;
+  }
+  nav .menu ul li a {
+    color: yellowgreen;
+    right: 0;
+  }
+  nav .menu ul li .clock {
+    display: inline-block;
+    color: #da1204;
+    font-size: large;
+  }
+  .hamburger {
+    display: flex;
+  }
+}

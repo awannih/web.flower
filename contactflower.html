@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jakarta Flower</title>
+    <link rel="stylesheet" href="contactflower.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="x-icon" href="img/paviconflower.png" />
+  </head>
+  <body>
+    <!-- Nav Start -->
+    <nav>
+      <div class="screen-in">
+          <div class="logo">
+            <!-- sidebar -->
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <!-- widget jam -->
+              <li><div id="DisplayClock" class="clock" onload="showTime()"></div></li>
+              <a href="#">Pesan online dibawah sini  </a>
+              <a href="https://www.tokopedia.com/" target="_blank"><img src="https://www.freepnglogos.com/uploads/logo-tokopedia-png/tokopedia-apa-itu-startup-pengertian-cara-memulai-dan-1.png" alt="Tokopedia">  <br>  Tokopedia</a>
+              <a href="https://shopee.co.id/" target="_blank"><img src="https://freelogopng.com/images/all_img/1656181199icon-shopee-png.png" alt="Shopee"> <br>Shopee</a>
+              <a href="https://wa.me/+6285893758285" target="_blank"> <img src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/logo-whatsapp-picture-images-hd-6.png" alt=""> <br> WhatsApp</a>
+            </div>
+            <div id="main">
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> 
+              <a href="homeflower.html"><img src="img/logojakartaflowers.jpeg" style="border-radius: 50px;" class="putih" /></a>
+            </div>
+            <!-- sidebar end -->
+          </div>
+          <!-- Hamburger Menu -->
+          <div class="menu">
+            <a href="#" class="hamburger" onclick="myFunction(this)">
+              <span class="garis1"></span>
+              <span class="garis2"></span>
+              <span class="garis3"></span>
+            </a>
+            <!-- Menu -->
+            <ul>
+              <li><a href="homeflower.html">Home</a></li>
+              <!-- dropdown -->
+              <li class="dropdown">
+                <a href="aboutflower.html" class="dropbtn">About</a>
+                  <div class="dropdown-content">
+                    <a href="aboutflower.html">Tentang Kita</a>
+                    <a href="aboutflower.html">Sejarah</a>
+                    <a href="aboutflower.html">Tujuan</a>
+                  </div>
+              </a></li>
+              <li><a href="productflower.html">Product</a></li>
+              <li><a href="customoder.html">Custom Order</a></li>
+              <li><a href="contactflower.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </nav>
+      <!-- Nav End -->
+
+       <!-- Footer -->
+       <section id="contact" class="contact">
+        <div class="container">
+          <h3>Contact Us</h3>
+          <div class=" contact-wrapper">
+            <div class="contact-form">
+              <h6>  Pesan</h6>
+              <form>
+                <div class="form-group">
+                  <input type="text" name="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                  <input type="text" name="institution" placeholder="Your institution">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" placeholder="Your Message"></textarea>
+                </div>
+                <a class="button" href="https://wa.me/+6285893758285" target="_blank"> <img style="width: 120px;" src="img/pngtree-click-the-submit-icon-button-vector-png-image_6674610-removebg-preview.png" alt=""></a><br>
+              </form>
+            </div>
+              <div class="contact-info">
+                <h6> Contact Information</h6>
+                <p> <i class="fas fa-phone"></i> +62858-9375-8285 Admin 1</p>
+                <p> <i class="fas fa-phone"></i> +62813-8904-0803 Admin 2</p>
+                <p> <a href="https://instagram.com/jakarta.flower_?igshid=MzMyNGUyNmU2YQ=="> <i class="fas fa-brands fa-instagram"></i></a> jakarta.flower_ </p>
+                <p><i class="fas fa-map-marker-alt"></i>Jl. Yahya No.21 Rt.02/Rw.07 Sukabumi Utama, Kebon Jeruk, Jakarta, Indonesia</p>
+              </div>
+          </div>
+        </div>
+        <div class="screen-in">
+          <div class="copyright">&copy; 2023 [Jakarta Flower]</div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <!-- js -->
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous">
+</script>
+<script src="js/script_uts.js"></script>
+</html>

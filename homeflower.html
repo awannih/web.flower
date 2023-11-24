@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jakarta Flower</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="homeflower.css" />
+    <link rel="icon" type="x-icon" href="img/paviconflower.png" />
+  </head>
+  <body>
+    <!-- Nav Start -->
+    <nav>
+      <div class="screen-in">
+          <div class="logo">
+            <!-- sidebar -->
+            <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <!-- widget jam -->
+              <li><div id="DisplayClock" class="clock" onload="showTime()"></div></li>
+              <a href="#">Pesan online dibawah sini  </a>
+              <a href="https://www.tokopedia.com/" target="_blank"><img src="https://www.freepnglogos.com/uploads/logo-tokopedia-png/tokopedia-apa-itu-startup-pengertian-cara-memulai-dan-1.png" alt="Tokopedia">  <br>  Tokopedia</a>
+              <a href="https://shopee.co.id/" target="_blank"><img src="https://freelogopng.com/images/all_img/1656181199icon-shopee-png.png" alt="Shopee"> <br>Shopee</a>
+              <a href="https://wa.me/+6285893758285" target="_blank"> <img src="https://www.freeiconspng.com/thumbs/logo-whatsapp-png/logo-whatsapp-picture-images-hd-6.png" alt=""> <br> WhatsApp</a>
+              </div>
+            <div id="main">
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> 
+              <a href="homeflower.html"><img style="border-radius: 50px;" src="img/logojakartaflowers.jpeg" class="putih" /></a>
+            </div>
+            <!-- sidebar end -->
+          </div>
+          <!-- Hamburger Menu -->
+          <div class="menu">
+            <a href="#" class="hamburger" onclick="myFunction(this)">
+              <span class="garis1"></span>
+              <span class="garis2"></span>
+              <span class="garis3"></span>
+            </a>
+            <!-- Menu -->
+            <ul>
+              <li><a href="homeflower.html">Home</a></li>
+              <!-- dropdown -->
+              <li class="dropdown">
+                <a href="aboutflower.html" class="dropbtn">About</a>
+                  <div class="dropdown-content">
+                    <a href="aboutflower.html">Tentang Kita</a>
+                    <a href="aboutflower.html">Sejarah</a>
+                    <a href="aboutflower.html">Tujuan</a>
+                  </div>
+              </a></li>
+              <li><a href="productflower.html">Product</a></li>
+              <li><a href="customoder.html">Custom Order</a></li>
+              <li><a href="contactflower.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </nav>
+      <!-- Nav End -->
+    <div class="layar-penuh">
+      <header id="home">
+        <!-- Overlay -->
+        <div class="overlay"></div>
+        <!-- Video -->
+        <video autoplay muted loop>
+          <source src="img/jakartaflowervid.mp4" type="video/mp4" />
+        </video>
+        <!-- Text Intro -->
+        <div class="intro">
+          <h3>Jakarta <span>Flower</span></h3>
+          <marquee direction= "left">Welcome to Jakarta Flower</marquee>
+           <marquee direction= "right"> Discover the beauty of our selection of fresh and high quality flowers, which are ready to beautify every precious moment in your life.</marquee>
+          <p>
+            <a href="#promo" class="tombol">MORE INFO</a>
+          </p>
+        </div>
+      </header>
+      
+<!-- main section start -->
+
+<!-- slider image -->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <img src="img/main1.png" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 5</div>
+    <img src="img/main2.png" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="img/main3.png" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 5</div>
+    <img src="img/main4.png" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 5</div>
+    <img src="img/main5.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+  </div>
+
+  <!-- slider image end -->
+
+        <!-- promo -->
+        <div id="promo" class="promo">
+          <h3>Promo</h3>
+            <div class="konten-isi">
+              <p>"
+                Selamat datang di Jakarta Flower, di mana kebahagiaan bermekaran melalui promo eksklusif kami! Dapatkan diskon 15% untuk 
+                setiap pembelian di atas Rp 500.000 dengan kode promo FLOWER15. Rayakan kasih sayang pada promo Valentine's Day, pesan 
+                rangkaian bunga dan dapatkan voucher makan malam gratis di restoran pilihan. Untuk momen spesial lainnya, nikmati promo buy one, 
+                get one, serta diskon 10% untuk konsultasi dekorasi venue pernikahan. Selalu ada keuntungan tambahan, seperti gratis biaya pengiriman
+                 untuk pembelian di atas Rp 750.000 selama promo Happy Shipping Days. 
+                Temukan keindahan bunga dengan harga istimewa hanya di Jakarta Flower! " <br><br>Tersedia di Tokopedia dan Shopee.</p>
+            </div>
+
+            <!-- New -->
+            <section id="New">
+              <div class="boxcontainer">
+                <h3> New </h3>
+                <main class="grid">
+                  <article>
+                    <img src="https://madameflorist.com/cdn/shop/files/702D261F-1196-4C5C-A7EE-C554A65CD4A9_600x.jpg?v=1696315514">
+                      <div class="konten">
+                        <h5>Aspen Yellow</h5>
+                        <p>IDR 1000k</p>
+                      </div>
+                  </article>
+                  <article>
+                    <img src="https://madameflorist.com/cdn/shop/files/17E9004C-1900-4D6F-9DCC-D726129147C6_600x.jpg?v=1696315416">
+                      <div class="konten">
+                        <h5>Autumn Charm</h5>
+                        <p>IDR 1200K</p>
+                      </div>
+                  </article>
+                  <article>
+                    <img src="https://madameflorist.com/cdn/shop/files/AA9B4C5B-7ED0-43CE-9A65-4239E6A43AB2_600x.jpg?v=1694510019">
+                      <div class="konten">
+                        <h5>Sweat Julia</h5>
+                        <p>IDR 650K</p>
+                      </div>
+                  </article>
+                </main>
+              </div>
+            </section>
+            <a href="#" class="tombol">View All Products</a>
+              <!-- Bucket -->
+                  <section id="Bucket">
+                    <div class="boxcontainer">
+                      <h3> Bouquet </h3>
+                      <main class="grid">
+                        <article>
+                          <img src="https://madameflorist.com/cdn/shop/files/IMG-0207_600x.jpg?v=1694434028">
+                            <div class="konten">
+                              <h5>Praire Bright</h5>
+                              <p>IDR 580K</p>
+                            </div>
+                        </article>
+                        <article>
+                          <img src="https://madameflorist.com/cdn/shop/files/F1172896-E532-40B6-819C-96E864472F37_600x.jpg?v=1693822216">
+                            <div class="konten">
+                              <h5>Pink Mahogany Bouquet</h5>
+                              <p>IDR 1800K</p>
+                            </div>
+                        </article>
+                        <article>
+                          <img src="https://madameflorist.com/cdn/shop/products/IMG_4196_600x.jpg?v=1667635371">
+                            <div class="konten">
+                              <h5>Purple Eveline Bouquet</h5>
+                              <p>IDR 1800K</p>
+                            </div>
+                        </article>
+                      </main>
+                    </div>
+                  </section>
+                  <a href="#" class="tombol">View All Products</a>
+                        <!-- karangan bunga -->
+                      <section id="karanganbunga">
+                        <div class="boxcontainer">
+                          <h3> Karangan bunga </h3>
+                          <main class="grid">
+                            <article>
+                              <img src="https://api.lakukan.co.id/storage-service/data/img_jasa/img_jasa-1682735625591.jpg">
+                                <div class="konten">
+                                  <h5>Karangan bunga level 1</h5>
+                                  <p>IDR 700k</p>
+                                </div>
+                            </article>
+                            <article>
+                              <img src="https://images.tokopedia.net/img/cache/700/hDjmkQ/2020/9/16/a0950c73-d8b0-40ad-85d1-9c486eace00e.jpg">
+                                <div class="konten">
+                                  <h5>Karangan bunga level 2</h5>
+                                  <p>IDR 1000K</p>
+                                </div>
+                            </article>
+                            <article>
+                              <img src="https://tokobungakendal.com/wp-content/uploads/2023/03/Karangan-Bunga-Congratulation-Botol-Shop.jpg">
+                                <div class="konten">
+                                  <h5>Karangan bunga level 3</h5>
+                                  <p>IDR 1500K</p>
+                                </div>
+                            </article>
+                          </main>
+                        </div>
+                      </section>
+                      <a href="#" class="tombol">View All Products</a>
+                          <!-- mini garden -->
+                       <section id="minigarden">
+                        <div class="boxcontainer">
+                          <h3> Mini Garden </h3>
+                          <main class="grid">
+                            <article>
+                              <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/6/9/6ea26def-b4ad-4c1f-9c1d-076af35f903e.jpg">
+                                <div class="konten">
+                                  <h5>Mini Garden S</h5>
+                                  <p>IDR 1000K</p>
+                                </div>
+                            </article>
+                            <article>
+                              <img src="https://www.vendorbackdrop.com/wp-content/uploads/2019/08/WhatsApp-Image-2019-08-30-at-16.09.38-768x1024.jpeg">
+                                <div class="konten">
+                                  <h5>Mini Garden M</h5>
+                                  <p>IDR 1800K</p>
+                                </div>
+                            </article>
+                            <article>
+                              <img src="https://2.bp.blogspot.com/-b7RnRp1UdFs/V2KM4nIDWWI/AAAAAAAAUUE/1IktcTcvAmk4gy8t2COwgguCQorEBvYtwCK4B/s1600/IMG_20160616_201855-785328.jpg">
+                                <div class="konten">
+                                  <h5>Mini Garden XL</h5>
+                                  <p>IDR 2500K</p>
+                                </div>
+                            </article>
+                          </main>
+                        </div>
+                       </section>
+                       <a href="#" class="tombol">View All Products</a>
+                    </div> 
+                    <br>
+                    <hr>
+                    
+    <!-- section blog -->
+        <div class="blog">
+          <div class="area">
+            <div
+              class="gambar"
+              style="background-image: url('https://media.matamata.com/thumbs/2022/08/02/51051-momen-ulang-tahun-syahrini-ke-40-instagramreinobarack/o-img-51051-momen-ulang-tahun-syahrini-ke-40-instagramreinobarack.jpg')">
+            </div>
+                <h4><a href="https://threebouquets.com/blogs/article/5-tips-beli-bunga-untuk-hadiah-ulang-tahun">5 Tips Beli Bunga untuk Hadiah Ulang Tahun</a></h4>
+                <p>
+                  Bunga sudah sejak dulu menjadi pembawa pesan yang sempurna, terutama pada hari-hari khusus seperti ulang tahun
+                    <a href="https://threebouquets.com/blogs/article/5-tips-beli-bunga-untuk-hadiah-ulang-tahun" class="readmore" target="_blank">Read more</a>
+                </p>
+          </div>
+          <div class="area">
+            <div
+              class="gambar"
+              style="background-image: url('https://cdn.shopify.com/s/files/1/0090/4799/8500/files/whiterose_600x600.jpg?v=1696220349')">
+            </div>
+                <h4><a href="https://threebouquets.com/blogs/article/4-bunga-yang-memiliki-arti-kedamaian">4 Bunga yang Memiliki Arti Kedamaian</a></h4>
+                <p>
+                  Jika kamu ingin memberikan hadiah yang membawa kedamaian,  bunga-bunga ini bisa menjadi pilihan kamu.
+                  <a href="https://threebouquets.com/blogs/article/4-bunga-yang-memiliki-arti-kedamaian" class="readmore" target="_blank">Read more</a>
+                </p>
+          </div>
+          <div class="area">
+            <div
+              class="gambar"
+              style="background-image: url('https://cdn.shopify.com/s/files/1/0090/4799/8500/files/cara_menanam_bunga_torenia.jpg?v=1625026089')"
+            ></div>
+                <h4><a href="https://threebouquets.com/blogs/article/mengenal-bunga-torenia-dan-cara-menanamnya">Bunga Torenia, Bunga Mata Kucing Banyak Dijadikan Tanaman Hias.</a></h4>
+                <p>
+                  Di Indonesia, para pecinta tanaman lebih akrab menyebut torenia dengan nama bunga mata kucing.
+                  <a href="https://threebouquets.com/blogs/article/mengenal-bunga-torenia-dan-cara-menanamnya" class="readmore" target="_blank">Read more</a>
+                </p>
+          </div>
+        </div>
+      </div>
+      <!-- section blog -->
+      <div class="screen-in">
+        <div class="copyright">&copy; 2023 [Jakarta Flower]</div>
+      </div>
+  </body>
+    <!-- js -->
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous">
+</script>
+<script src="js/script_uts.js"></script>
+</script>
+</html>
